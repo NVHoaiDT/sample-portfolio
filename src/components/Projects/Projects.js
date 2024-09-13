@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import ex02 from "../../Assets/Projects/ex02.png"
+import ex01 from "../../Assets/Projects/ex01.png"
 
 function Projects() {
   return (
@@ -23,21 +25,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ex01}
               isBlog={false}
               title="Email"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer."
-              ghLink="https://github.com/soumyajit4419/Chatify"              
+              description="Setting up the development environment, IDE, getting familiar with Java Servlet programming, learn the basics of creating, deploying, and testing Java Servlets."
+              ghLink="https://java-web-u9i4.onrender.com/email"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ex02}
               isBlog={false}
               title="Survey"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              description="The three-tier architecture and the Model-View-Controller (MVC). Learn to create Java Servlets with basic methods such as doGet() and doPost()."
+              ghLink="https://java-web-u9i4.onrender.com/survey/"
               
             />
           </Col>
