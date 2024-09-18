@@ -44,6 +44,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ex02}
+              isBlog={false}
+              title="New-JSP"
+              description="Modify the HTML document for the Email List application, and you’ll create a new servlet that responds to the HTML document."
+              ghLink="https://java-web-u9i4.onrender.com/survey/"              
+            />
+          </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
