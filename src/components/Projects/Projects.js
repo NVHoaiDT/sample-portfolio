@@ -50,7 +50,7 @@ function Projects() {
               isBlog={false}
               title="New-JSP"
               description="Modify the HTML document for the Email List application, and you’ll create a new servlet that responds to the HTML document."
-              ghLink="https://java-web-u9i4.onrender.com/survey/"              
+              ghLink="https://java-web-u9i4.onrender.com/new-jsp/"              
             />
           </Col>
 
