@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={ex01}
               isBlog={false}
-              title="Email"
+              title="Email & Modify JSP"
               description="Setting up the development environment, IDE, getting familiar with Java Servlet programming, learn the basics of creating, deploying, and testing Java Servlets."
               ghLink="https://java-web-u9i4.onrender.com/email"              
             />
@@ -48,9 +48,9 @@ function Projects() {
             <ProjectCard
               imgPath={ex02}
               isBlog={false}
-              title="New-JSP"
+              title="New-JSP for Survey"
               description="Modify the HTML document for the Email List application, and you’ll create a new servlet that responds to the HTML document."
-              ghLink="https://java-web-u9i4.onrender.com/new-jsp/"              
+              ghLink="https://java-web-u9i4.onrender.com/survey/"              
             />
           </Col>
 
