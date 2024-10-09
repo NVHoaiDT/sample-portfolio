@@ -54,6 +54,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex02}
+              isBlog={false}
+              title="Shopping Card"
+              description="No description........................................."
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"              
+            />
+          </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
