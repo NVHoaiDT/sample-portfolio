@@ -8,8 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import ex02 from "../../Assets/Projects/ex02.png"
 import ex01 from "../../Assets/Projects/ex01.png"
+import ex02 from "../../Assets/Projects/ex02.png"
+import ex03 from "../../Assets/Projects/ex03.png"
 
 function Projects() {
   return (
@@ -56,7 +57,7 @@ function Projects() {
 
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex02}
+              imgPath={ex03}
               isBlog={false}
               title="Shopping Card"
               description="No description........................................."
