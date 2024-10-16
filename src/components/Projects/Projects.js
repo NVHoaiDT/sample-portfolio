@@ -65,6 +65,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex04}
+              isBlog={false}
+              title="SQL Connection"
+              description="SQL Connection with JSP"
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"              
+            />
+          </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
