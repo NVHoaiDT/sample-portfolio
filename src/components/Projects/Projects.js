@@ -11,6 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import ex01 from "../../Assets/Projects/ex01.png"
 import ex02 from "../../Assets/Projects/ex02.png"
 import ex03 from "../../Assets/Projects/ex03.png"
+import ex04 from "../../Assets/Projects/ex04.png"
 
 function Projects() {
   return (
@@ -71,43 +72,20 @@ function Projects() {
               isBlog={false}
               title="SQL Connection"
               description="SQL Connection with JSP"
-              ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"              
+              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"              
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ex01}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Connection Pool"
+              description="Connection Pool"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
+          {/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
