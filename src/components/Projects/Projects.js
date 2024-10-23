@@ -8,10 +8,10 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import ex01 from "../../Assets/Projects/ex01.png"
-import ex02 from "../../Assets/Projects/ex02.png"
-import ex03 from "../../Assets/Projects/ex03.png"
-import ex04 from "../../Assets/Projects/ex04.png"
+import ex01 from "../../Assets/Projects/ex01.png";
+import ex02 from "../../Assets/Projects/ex02.png";
+import ex03 from "../../Assets/Projects/ex03.png";
+import ex04 from "../../Assets/Projects/ex04.png";
 
 function Projects() {
   return (
@@ -21,9 +21,7 @@ function Projects() {
         <h1 className="project-heading">
           Class <strong className="gradient">Exams </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are my weekly exam submission.
-        </p>
+        <p style={{ color: "white" }}>Here are my weekly exam submission.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -31,7 +29,7 @@ function Projects() {
               isBlog={false}
               title="Email & Modify JSP"
               description="Setting up the development environment, IDE, getting familiar with Java Servlet programming, learn the basics of creating, deploying, and testing Java Servlets."
-              ghLink="https://java-web-u9i4.onrender.com/email"              
+              ghLink="https://java-web-u9i4.onrender.com/email"
             />
           </Col>
 
@@ -42,7 +40,6 @@ function Projects() {
               title="Survey"
               description="The three-tier architecture and the Model-View-Controller (MVC). Learn to create Java Servlets with basic methods such as doGet() and doPost()."
               ghLink="https://java-web-u9i4.onrender.com/survey/"
-              
             />
           </Col>
 
@@ -52,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="New-JSP for Survey"
               description="Modify the HTML document for the Email List application, and you’ll create a new servlet that responds to the HTML document."
-              ghLink="https://java-web-u9i4.onrender.com/survey/"              
+              ghLink="https://java-web-u9i4.onrender.com/survey/"
             />
           </Col>
 
@@ -62,7 +59,7 @@ function Projects() {
               isBlog={false}
               title="Shopping Card"
               description="No description........................................."
-              ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"              
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"
             />
           </Col>
 
@@ -72,7 +69,7 @@ function Projects() {
               isBlog={false}
               title="SQL Connection"
               description="SQL Connection with JSP"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"              
+              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"
             />
           </Col>
           <Col md={4} className="project-cart">
@@ -81,7 +78,16 @@ function Projects() {
               isBlog={false}
               title="Connection Pool"
               description="Connection Pool"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"              
+              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"
+            />
+          </Col>
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex01}
+              isBlog={false}
+              title="Java JPA"
+              description="Java JPA"
+              ghLink="https://java-web-u9i4.onrender.com/email"
             />
           </Col>
 
