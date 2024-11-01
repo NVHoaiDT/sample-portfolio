@@ -86,7 +86,7 @@ function Projects() {
               isBlog={false}
               title="SQL Gateway"
               description="Interact with database by using JDBC and MySQL"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/sqlGateway"
             />
           </Col>
 
@@ -108,15 +108,7 @@ function Projects() {
               ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
             />
           </Col>
-          <Col md={4} className="project-cart">
-            <ProjectCard
-              imgPath={ex01}
-              isBlog={false}
-              title="Connection Pool"
-              description="Java Mail Sender"
-              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
-            />
-          </Col>
+
           <Col md={4} className="project-cart">
             <ProjectCard
               imgPath={ex01}
