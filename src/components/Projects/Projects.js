@@ -12,7 +12,7 @@ import ex01 from "../../Assets/Projects/ex01.png";
 import ex02 from "../../Assets/Projects/ex02.png";
 import ex03 from "../../Assets/Projects/ex03.png";
 import ex04 from "../../Assets/Projects/ex04.png";
-
+import shopping from "../../Assets/Projects/shopping.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex03}
+              imgPath={ex01}
               isBlog={false}
               title="Email - doGet/doPost"
               description="Learn to create Java Servlets with basic methods such as doGet() and doPost()."
@@ -55,7 +55,7 @@ function Projects() {
 
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex04}
+              imgPath={ex01}
               isBlog={false}
               title="Email JSTL"
               description="Updated JSTL for java mail excersice"
@@ -64,16 +64,16 @@ function Projects() {
           </Col>
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex01}
+              imgPath={shopping}
               isBlog={false}
               title="Shopping Cart"
               description="Basic shopping cart (session/cookie haven't apply yet)"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/shopping-cart/"
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"
             />
           </Col>
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex01}
+              imgPath={shopping}
               isBlog={false}
               title="Shopping Cart with session"
               description="Apply session for Basic shopping cart"
@@ -83,7 +83,7 @@ function Projects() {
 
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex01}
+              imgPath={ex04}
               isBlog={false}
               title="SQL Gateway"
               description="Interact with database by using JDBC and MySQL"
@@ -93,7 +93,7 @@ function Projects() {
 
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex01}
+              imgPath={ex04}
               isBlog={false}
               title="Connection Pool"
               description="No description."
