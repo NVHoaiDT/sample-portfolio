@@ -92,11 +92,11 @@ function Projects() {
 
           <Col md={4} className="project-cart">
             <ProjectCard
-              imgPath={ex04}
+              imgPath={ex01}
               isBlog={false}
               title="Connection Pool"
               description="No description."
-              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_ConnectionPool"
             />
           </Col>
           <Col md={4} className="project-cart">
@@ -105,17 +105,7 @@ function Projects() {
               isBlog={false}
               title="Email JPA"
               description="No description."
-              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
-            />
-          </Col>
-
-          <Col md={4} className="project-cart">
-            <ProjectCard
-              imgPath={ex01}
-              isBlog={false}
-              title="Basic paging app with JDBC and Ajax"
-              description="No description."
-              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/Week10_JavaMail/"
             />
           </Col>
         </Row>
