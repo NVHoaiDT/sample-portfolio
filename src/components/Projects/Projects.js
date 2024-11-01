@@ -86,7 +86,7 @@ function Projects() {
               isBlog={false}
               title="SQL Gateway"
               description="Interact with database by using JDBC and MySQL"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/sqlGateway"
+              ghLink="https://https://java-web-u9i4.onrender.com/sqlGateway"
             />
           </Col>
 
