@@ -42,8 +42,7 @@ function Projects() {
               ghLink="https://java-web-u9i4.onrender.com/survey/"
             />
           </Col>
-
-          <Col md={4} className="project-cart">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ex01}
               isBlog={false}
