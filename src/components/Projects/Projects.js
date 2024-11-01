@@ -28,7 +28,7 @@ function Projects() {
               imgPath={ex01}
               isBlog={false}
               title="Email & Modify JSP"
-              description="Setting up the development environment, IDE, getting familiar with Java Servlet programming, learn the basics of creating, deploying, and testing Java Servlets."
+              description="Setting up the development environment, IDE, getting familiar with Java Servlet programming... Updated to check empty field"
               ghLink="https://java-web-u9i4.onrender.com/email"
             />
           </Col>
@@ -38,17 +38,7 @@ function Projects() {
               imgPath={ex02}
               isBlog={false}
               title="Survey"
-              description="The three-tier architecture and the Model-View-Controller (MVC). Learn to create Java Servlets with basic methods such as doGet() and doPost()."
-              ghLink="https://java-web-u9i4.onrender.com/survey/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ex02}
-              isBlog={false}
-              title="New-JSP for Survey"
-              description="Modify the HTML document for the Email List application, and you’ll create a new servlet that responds to the HTML document."
+              description="Basic form's component and the three-tier architecture and the Model-View-Controller (MVC)."
               ghLink="https://java-web-u9i4.onrender.com/survey/"
             />
           </Col>
@@ -57,9 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={ex03}
               isBlog={false}
-              title="Shopping Card"
-              description="No description........................................."
-              ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"
+              title="Email - doGet/doPost"
+              description="Learn to create Java Servlets with basic methods such as doGet() and doPost()."
+              ghLink="https://java-web-u9i4.onrender.com/email-get-post/"
             />
           </Col>
 
@@ -67,9 +57,56 @@ function Projects() {
             <ProjectCard
               imgPath={ex04}
               isBlog={false}
-              title="SQL Connection"
-              description="SQL Connection with JSP"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"
+              title="Email JSTL"
+              description="Updated JSTL for java mail excersice"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/email-jstl/"
+            />
+          </Col>
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex01}
+              isBlog={false}
+              title="Shopping Cart"
+              description="Basic shopping cart (session/cookie haven't apply yet)"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/shopping-cart/"
+            />
+          </Col>
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex01}
+              isBlog={false}
+              title="Shopping Cart with session"
+              description="Apply session for Basic shopping cart"
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
+            />
+          </Col>
+
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex01}
+              isBlog={false}
+              title="SQL Gateway"
+              description="Interact with database by using JDBC and MySQL"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection"
+            />
+          </Col>
+
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex01}
+              isBlog={false}
+              title="Connection Pool"
+              description="No description."
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
+            />
+          </Col>
+          <Col md={4} className="project-cart">
+            <ProjectCard
+              imgPath={ex01}
+              isBlog={false}
+              title="Email JPA"
+              description="No description."
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
             />
           </Col>
           <Col md={4} className="project-cart">
@@ -77,32 +114,19 @@ function Projects() {
               imgPath={ex01}
               isBlog={false}
               title="Connection Pool"
-              description="Connection Pool"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_SQLconnection/"
+              description="Java Mail Sender"
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
             />
           </Col>
           <Col md={4} className="project-cart">
             <ProjectCard
               imgPath={ex01}
               isBlog={false}
-              title="Java JPA"
-              description="Java JPA"
-              ghLink="https://java-web-u9i4.onrender.com/email"
+              title="Basic paging app with JDBC and Ajax"
+              description="No description."
+              ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
             />
           </Col>
-
-          {/* 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
