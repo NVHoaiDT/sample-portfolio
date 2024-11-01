@@ -95,7 +95,7 @@ function Projects() {
               imgPath={ex01}
               isBlog={false}
               title="Connection Pool"
-              description="No description."
+              description="Update connection pool for email exercise"
               ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_ConnectionPool"
             />
           </Col>
@@ -104,7 +104,7 @@ function Projects() {
               imgPath={ex01}
               isBlog={false}
               title="Email JPA"
-              description="No description."
+              description="Send email with Java Mail API."
               ghLink="https://testwebdeploy-kn1p.onrender.com/Week10_JavaMail/"
             />
           </Col>
