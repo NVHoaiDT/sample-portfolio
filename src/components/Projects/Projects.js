@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={ex01}
               isBlog={false}
-              title="Email & Modify JSP"
+              title="Email"
               description="Setting up the development environment, IDE, getting familiar with Java Servlet programming... Updated to check empty field"
               ghLink="https://java-web-u9i4.onrender.com/email"
             />
