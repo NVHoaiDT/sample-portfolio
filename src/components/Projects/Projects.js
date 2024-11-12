@@ -106,7 +106,7 @@ function Projects() {
               isBlog={false}
               title="Email JPA"
               description="Send email with Java Mail API."
-              ghLink="https://testwebdeploy-kn1p.onrender.com/Week10_JavaMail/"
+              ghLink="https://java-web-u9i4.onrender.com/email-jpa"
             />
           </Col>
         </Row>
