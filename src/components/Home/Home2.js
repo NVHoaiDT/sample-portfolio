@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatars1.svg";
 import Tilt from "react-parallax-tilt";
-import Projects from "../Projects/Projects"
+import Projects from "../Projects/Projects";
 
-import {
-  AiFillGithub,
-  AiFillFacebook
-} from "react-icons/ai";
+import { AiFillGithub, AiFillFacebook, AiFillCode } from "react-icons/ai";
 
 function Home2() {
   return (
@@ -16,19 +13,15 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              ABOUT <span className="gradient"> ME </span> 
+              ABOUT <span className="gradient"> ME </span>
             </h1>
             <p className="home-about-body">
-              Just a web development enthusiast... 
-              <br />              
+              Just a web development enthusiast...
               <br />
-              
-              I am passionate about developing products using <b className="">Node.js</b> and
+              <br />I am passionate about developing products using{" "}
+              <b className="">Node.js</b> and
               <i>
-                <b className="">
-                  {" "}
-                  Modern Javascript Frameworks
-                </b>
+                <b className=""> Modern Javascript Frameworks</b>
               </i>
               &nbsp; such as
               <i>
@@ -57,6 +50,17 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://nvhoaidt.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillCode />
                 </a>
               </li>
 
