@@ -12,6 +12,7 @@ import ex01 from "../../Assets/Projects/ex01.png";
 import ex02 from "../../Assets/Projects/ex02.png";
 import ex03 from "../../Assets/Projects/ex03.png";
 import ex04 from "../../Assets/Projects/ex04.png";
+import jpa from "../../Assets/Projects/jpa.png";
 import shopping from "../../Assets/Projects/shopping.png";
 function Projects() {
   return (
@@ -94,9 +95,9 @@ function Projects() {
             <ProjectCard
               imgPath={ex01}
               isBlog={false}
-              title="Connection Pool"
-              description="Update connection pool for email exercise"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/Week8_ConnectionPool"
+              title="Email JPA"
+              description="Update JPA for email exercise"
+              ghLink="https://java-web-u9i4.onrender.com/email-jpa"
             />
           </Col>
           <Col md={4} className="project-cart">
