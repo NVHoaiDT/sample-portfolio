@@ -65,7 +65,7 @@ function Projects() {
               isBlog={false}
               title="Email JSTL"
               description="Updated JSTL for java mail excersice"
-              ghLink="https://testwebdeploy-kn1p.onrender.com/email-jstl/"
+              ghLink="https://testwebdeploy-kn1p.onrender.com/email/"
             />
           </Col>
           <Col md={4} className="project-cart">
