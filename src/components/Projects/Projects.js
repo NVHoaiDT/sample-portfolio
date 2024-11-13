@@ -77,15 +77,15 @@ function Projects() {
               ghLink="https://java-web-u9i4.onrender.com/shopping-cart/"
             />
           </Col>
-          <Col md={4} className="project-cart">
+          {/* <Col md={4} className="project-cart">
             <ProjectCard
               imgPath={shopping}
               isBlog={false}
-              title="Shopping Cart with session"
-              description="Apply session for Basic shopping cart"
+              title="Shopping Cart rUpdate"
+              description="Shopping cart with quantity mutable"
               ghLink="https://java-web-u9i4.onrender.com/shopping-cart-session"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-cart">
             <ProjectCard
