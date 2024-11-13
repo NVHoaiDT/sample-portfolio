@@ -24,6 +24,69 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
+
+      <Container>
+        <h1 className="project-heading">
+          <strong className="gradient">Labor</strong> of{" "}
+          <strong className="gradient-light">Love</strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          My humble projects built with Node.js stack.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="HDT Blog"
+              description="My interactive React-based personal blog (still in develop process)."
+              ghLink="https://nvhoaidt.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wordle}
+              isBlog={false}
+              title="Wordle"
+              description="A React-based word puzzle game inspired by Wordle."
+              ghLink="https://github.com/NVHoaiDT/word-game"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={next}
+              isBlog={false}
+              title="Next Financial"
+              description="A project implementing basic Next.js features including error handling, authentication..."
+              ghLink="https://github.com/NVHoaiDT/next-financial-dashboard"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hdtFood}
+              isBlog={false}
+              title="HDT Food"
+              description="A responsive site focusing on business and startups web design principles."
+              ghLink="https://github.com/NVHoaiDT/hdt-food"
+            />
+          </Col>
+        </Row>
+      </Container>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
       <Container>
         <h1 className="project-heading">
           Class <strong className="gradient">Exams </strong>
@@ -113,67 +176,6 @@ function Projects() {
               title="Send Email"
               description="Send email with Java Mail API."
               ghLink="https://javaemail.onrender.com/"
-            />
-          </Col>
-        </Row>
-      </Container>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Container>
-        <h1 className="project-heading">
-          <strong className="gradient">Labor</strong> of{" "}
-          <strong className="gradient-light">Love</strong>
-        </h1>
-        <p style={{ color: "white" }}>
-          My humble projects built with Node.js stack.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={blog}
-              isBlog={false}
-              title="HDT Blog"
-              description="My interactive React-based personal blog (still in develop process)."
-              ghLink="https://nvhoaidt.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={wordle}
-              isBlog={false}
-              title="Wordle"
-              description="A React-based word puzzle game inspired by Wordle."
-              ghLink="https://github.com/NVHoaiDT/word-game"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={next}
-              isBlog={false}
-              title="Next Financial"
-              description="A project implementing basic Next.js features including error handling, authentication..."
-              ghLink="https://github.com/NVHoaiDT/next-financial-dashboard"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={hdtFood}
-              isBlog={false}
-              title="HDT Food"
-              description="A responsive site focusing on business and startups web design principles."
-              ghLink="https://github.com/NVHoaiDT/hdt-food"
             />
           </Col>
         </Row>
